@@ -8,6 +8,6 @@ function hk(){
   el.style.border = 0;
   el.style.width = mq.matches ? '300px' : 'calc(100% + 8px)';
   el.style.height = '100%';
-  var inside = document.querySelector('.inside');
+  var inside = document.querySelector('body');
   inside.appendChild(el);
 }
